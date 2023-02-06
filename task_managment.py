@@ -7,6 +7,7 @@ Usage:  Task_managment.py    command subcommand
 Commands:
   add           Add a new task. Usage:  add "name" kwota
   clear         Clears the expense base, returns a base containing an empty list...
+  delete        Delete expense with given id.   Usage: delete id
   exportpython  Prints representation of expenses.
   importcsv     Imports the expense base from a csv file, the file must contain...
                 Usage: importcsv filename.csv
@@ -205,6 +206,19 @@ def clear():
     else:
         print("Anulowano")
         sys.exit(10)
+
+@cli.command
+@click.argument("id")
+def delete(id :str):
+    """ Usówa z bazy wydatek o podanym ID"""
+
+    expenses = load_file(DB_FILENAME)
+    new_expenses = [expense for expense in expenses if expense.id != int(id)]
+    create_or_save_file(DB_FILENAME, new_expenses, overwrite=True)
+    if expenses == new_expenses:
+        print_error(30)
+    elif id:
+        print(f"Dodaek o id = {id} usunięty ")
 
 
 @cli.command

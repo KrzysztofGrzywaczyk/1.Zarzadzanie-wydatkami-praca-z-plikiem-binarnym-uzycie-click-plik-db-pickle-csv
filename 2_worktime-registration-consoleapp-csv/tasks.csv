@@ -1,0 +1,14 @@
+desc,time,tags
+
+Malowanie w projekcie Dom dla klienta A,30,klient-A projekt-Dom delegacja
+Tynkowanie w projekcie Dom dla klienta B,160,klient-B projekt-Dom
+Tapetowanie w projekcie Dom dla klienta C,30,klient-C projekt-Dom
+Malowanie w projekcie Mieszkanie dla klienta B,15,klient-B projekt-Mieszkanie nagle delegacja
+Tynkowanie w projekcie Mieszkanie dla klienta A,140,klient-A projekt-Mieszkanie
+Tapetowanie w projekcie Mieszkanie dla klienta C,20,klient-C projekt-Mieszkanie delegacja
+Ustawianie ścian działowych w Mieszkaniu dla klienta B,60,klient-B projekt-Mieszkanie
+Malowanie w projekcie Hotel dla klienta C,130,klient-C projekt-Hotel
+Tynkowanie w projekcie Hotel dla klienta C,460,klient-C projekt-Hotel
+Tapetowanie w projekcie Hotel dla klienta C,565,klient-C projekt-Hotel
+
+Prywatne zadanie,15,prywatne

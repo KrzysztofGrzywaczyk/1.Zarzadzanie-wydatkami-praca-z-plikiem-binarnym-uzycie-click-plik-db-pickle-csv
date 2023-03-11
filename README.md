@@ -1,6 +1,6 @@
-# Sample pure-python projects
+# Early-stage pure-python projects
 
-This repository contains early, pure-python, mainly consol-aplication projects:
+This repository contains early-stage, pure-python, mainly consol-aplication projects:
 
 **every folder below contains tests**
 
